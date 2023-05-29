@@ -67,7 +67,7 @@ header nav ul li a {
   background-color: #ddd;
 }
 
-@media (width <= 900px) {
+@media (max-width: 900px) {
   header {
     width: 100%;
     line-height: 6;
@@ -177,7 +177,7 @@ header nav ul li a {
   z-index: -1;
 }
 
-@media (width <= 900px) {
+@media (max-width: 900px) {
   .hero .hero-title {
     width: 100%;
     left: 50%;
@@ -192,14 +192,6 @@ header nav ul li a {
 
   .hero-title p {
     font-size: 1rem;
-  }
-}
-
-@media (900px <= width <= 1200px) {
-  .hero .hero-title {
-     
-    left: 50%;
-    text-align: center;
   }
 }
 
@@ -237,22 +229,7 @@ header nav ul li a {
   border-bottom-right-radius: 10px;
 }
 
-@media (900px <= width <= 1200px) {
-  .container {
-    display: block;
-  }
-
-  .container .container-image {
-    margin-left: 0;
-  }
-
-  .container .container-image img {
-    width: 100%;
-    margin-top: 2rem;
-  }
-}
-
-@media (width <= 900px) {
+@media (max-width: 900px) {
   .container {
     display: block;
   }
@@ -317,18 +294,8 @@ header nav ul li a {
   color: #ffa500;
 }
 
-@media (900px <= width <= 1200px) {
-  .choose-us {
-    display: block;
-  }
 
-  .choose-us .choose {
-    margin-left: 0;
-    margin-top: 3rem;
-  }
-}
-
-@media (width <= 900px) {
+@media (max-width: 900px) {
   .choose-us {
     display: block;
   }
@@ -420,7 +387,7 @@ header nav ul li a {
   border-radius: 5px;
 }
 
-@media (width <= 900px) {
+@media (max-width: 900px) {
   .container-item h2 {
     font-size: 2rem;
   }
@@ -502,23 +469,7 @@ header nav ul li a {
   width: 100%;
 }
 
-@media (900px <= width <= 1200px) {
-  .inspiration .inspiration-items {
-    flex-direction: column;
-  }
-
-  .inspiration .colorful {
-    margin-top: -2rem;
-  }
-
-  .inspiration .inspiration-item .text {
-    width: 60%;
-    position: relative;
-    bottom: 7rem;
-  }
-}
-
-@media (width <= 900px) {
+@media (max-width: 900px) {
   .inspiration .inspiration-text {
     width: 100%;
   }
@@ -697,42 +648,7 @@ header nav ul li a {
   opacity: 1;
 }
 
-@media (width: 1200px) {
-  .testimonials h2 {
-    font-size: 3rem;
-  }
-
-  .testimonial {
-    width: 70%;
-    top: 12rem;
-  }
-
-  .testimonial-title {
-    width: 100%;
-  }
-
-  .testimonial .details h3 {
-    font-size: 2rem;
-  }
-
-  .testimonials p.text {
-    font-size: 2rem;
-  }
-
-  .testimonial::before {
-    font-size: 20rem;
-  }
-
-  .testimonials img {
-    width: 7rem;
-  }
-
-  .slide__btn--right {
-    right: -1rem;
-  }
-}
-
-@media (width <= 900px) {
+@media (max-width: 900px) {
   .testimonial-title {
     width: 100%;
   }
@@ -798,41 +714,6 @@ header nav ul li a {
   }
 }
 
-@media (width: 820px) {
-  .testimonials h2 {
-    font-size: 2rem;
-  }
-
-  .testimonial {
-    top: 3%;
-  }
-
-  .testimonial img {
-    width: 5rem;
-  }
-
-  .testimonial-title p {
-    font-size: 1.8rem;
-  }
-
-  .testimonial .details h3 {
-    font-size: 1.5rem;
-  }
-
-  .testimonial .details p {
-    font-size: 1rem;
-  }
-
-  .slide {
-    margin-top: 3rem;
-  }
-
-  .testimonial::before {
-    font-size: 12rem;
-    top: -5rem;
-  }
-}
-
 /* Footer */
 
 .footer {
@@ -887,7 +768,7 @@ p.copy-right {
   text-decoration: none;
   margin-left: 0.5rem;
   justify-content: center;
-  color: #888
+  color: #888;
 }
 
 .footer .footer-container .footer-address .add {
@@ -907,7 +788,7 @@ p.copy-right {
   font-size: 0.8rem;
 }
 
-@media (width <= 900px) {
+@media (max-width: 900px) {
   .footer-container {
     display: block;
   }
@@ -935,8 +816,3 @@ p.copy-right {
   }
 }
 
-@media (width: 820px) {
-  .footer-container {
-    display: flex;
-  }
-}
